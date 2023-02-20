@@ -21,6 +21,16 @@ This is the tentative plan for week 7 of the semester.
     </details>
   - Discuss and map the [4-layer architecture](./software_engineering_4-layer_architecture.md) to the team project.
   - Discuss the grading rubric for project.
+  - Discuss immediate expectations on having:
+      - product manager
+      - product backlog
+      - weekly iteration plan
+      - having an issue for all activities
+        - issues are assigned to individuals
+        - issue comments contain all discussion, this includes capturing in-person conversations.
+        - commit messages reference issues
+      - every artifact (code, document) in the GitHub repository must be linked to an issue
+using one repo per product component
 
 </details>
 
