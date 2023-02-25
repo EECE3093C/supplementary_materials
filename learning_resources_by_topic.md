@@ -25,7 +25,30 @@ My preference is that you use a per developer branching strategy, where each dev
   - [Branching Strategies](https://github.com/EECE3093C/supplementary_materials/blob/main/branching_strategies.md)
 </details>
 
+
+### Git Commits
+
+> **Warning**
+> 
+> All work done by all team members must be accounted for through issues.  If it is not an issue, you **cannot** get credit for the work.  Therefore, even researching a particular concept should be documented as an issue, with what you learned and the direct outcome as it pertains to the issue must be captured in a comment (on the issue).
+> 
+
+
+
+
 ### GitHub Actions
+
+
+### GitHub GUI
+
+It is recommended that you use either [GitHub Desktop](https://desktop.github.com) or use [Visual Studio Codes git functionality](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git).
+
+<details>
+  <summary>Links</summary>
+  
+  - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
+  - [Intro to git for Visual Studio Code]([https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git))
+</details>
 
 
 ### GitHub Project and Issues
@@ -33,17 +56,20 @@ My preference is that you use a per developer branching strategy, where each dev
 Every team must have a single GitHub Project created from the `Feature` project template.  
 
 - You must actively maintain a [product backlog](https://www.atlassian.com/agile/scrum/backlogs).
-- You must clearly demonstrate per iteration planning, and have an overall objective of what working software will be delivered for that iteration.
+
+You must clearly demonstrate per iteration planning, and have an overall objective of what working software will be delivered for that iteration.
+
+> **Warning**
+> 
+> All work done by all team members must be accounted for through issues.  If it is not an issue, you **cannot** get credit for the work.  Therefore, even researching a particular concept should be documented as an issue, with what you learned and the direct outcome as it pertains to the issue documented through a comment (on the issue).
+> 
+
 - During iteration planning (or prior), issues must:
   - be assigned to the [iteration](https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields)
   - be assigned to a developer
   - classified by assigning a label
 - Team discussions about an issue must be captured through issue comments.
 
-> **Warning**
-> 
-> All work done by all team members must be accounted for through issues.  If it is not an issue, you **cannot** get credit for the work.  Therefore, even researching a particular concept should be documented as an issue, what you learn and the outcome must be captured in a comment (on the issue).
-> 
 
 <details>
   <summary>Links</summary>
