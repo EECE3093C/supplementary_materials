@@ -4,7 +4,58 @@ This repo holds a collection of Markdown documents organized by subject, offerin
 
 ### Current Week 
 
-This is the tentative plan for week 7 of the semester.
+This is the tentative plan for week 8 of the semester.
+
+<details>
+  <summary>Tuesday, February 28, 2023</summary>
+
+  - GitHub Actions
+
+</details>
+
+<details>
+  <summary>Thursday, March 2, 2023</summary>
+
+  - 
+
+</details>
+
+
+---
+
+### Previous Classes
+
+Previous classes listed in reverse chronological order and grouped by week.
+
+#### Week 7
+
+<details>
+  <summary>Thursday, February 23, 2023</summary>
+
+  - There were no slides for today's lecture.
+  - We discussed a commerical product called [Pulse Grow](https://pulsegrow.com), noting the price of the product relative to the cost of the hardware.  In many ways, hardware is very generic, it is the software that creates the value proposition.
+  - We discussed geolocation and some of the complexities in getting an accurate location, and touched a bit on privacy.
+    - Accurate geolocation from a computer is nearly impossible, the location comes from your Internet Service Provider (ISP).
+      - I used my home as an example.  I live in Liberty Township, but my location through my computer will show up as being in the city of Mason which is ~5 miles aways from where I live.
+      - Another consideration is when Virtual Private Network (VPN) clients are in use.  VPNs are used by companies and universities for network security.  VPNs will result in your computer being registered in a completely different location, sometimes in a different state. When I am connected to my companies VPN, my location will show up as being in Chicago, IL.
+    - We discussed changes in the mobile ecosystem and how privacy concerns are resulting in protections for consumers, where there is more opting in versus opting out.
+    - I used the McDonald's application as an example of creating perceived value for the consumer in exchange for their precise geolocation, and how the app continues to have access to this in the background.  I also suggested that the McDonald's app was a good example of gamification based on how it allows you to collect points and redeem points for food.
+  - Containerization
+    - Why is containerization important?
+      - Containers allow us to get software to run reliably when moved from one computing environment to another.
+      - Containers allow applications to be more rapidly deployed and scaled.  [Kubernetes](https://kubernetes.io) is an example of how you can scale out from a container.
+    - In general, containerization is a tool that supports the agile methodology.
+    - Containers are essentially "virtual machines", similar to [VirtualBox](https://www.virtualbox.org) or [Parallels Desktop](https://www.parallels.com/products/desktop/) if you are familiar with these.
+    - We discussed that we will incorporate containerization through the use of Visual Studio Code Dev Containers only.
+      - This means that I should be able to download your GitHub repository, open the folder in Visual Studio code, and have the same development environment that you have.
+    - I attempted to give a demonstration on how to setup a dev container inside VS Code, this was poorly done (my ADD got the better part of me) and I apologize.
+    - Resource to help you implement Visual Studio Code Dev Containers
+      - [Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial) must be completed by everyone.
+      - [Developing Inside a Container](https://code.visualstudio.com/docs/devcontainers/containers) provides lower level information on the principles.  However, I stress that you do not need to understand this for the project, keep it simple!
+      - I do not believe the TA's have experience with Dev Containers, so ask me if you need help.
+
+</details>
+
 
 <details>
   <summary>Tuesday, February 21, 2023</summary>
@@ -46,22 +97,7 @@ This is the tentative plan for week 7 of the semester.
       - The **individual** project grade will include an individual contribution factor in the range of [0.7, 1.0]
       - Reminded that the course grade is weighted 60% project, 40% assignments.  This change was due to putting more emphasis on the project, resulting in the removal of the final exam.
   
-
 </details>
-
-<details>
-  <summary>Thursday, February 23, 2023</summary>
-
-  - GitHub Actions
-  - Containerization
-
-</details>
-
----
-
-### Previous Classes
-
-Previous classes listed in reverse chronological order and grouped by week.
 
 #### Week 6
 
