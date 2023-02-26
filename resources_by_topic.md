@@ -91,7 +91,7 @@ It is recommended that you use either [GitHub Desktop](https://desktop.github.co
 
 <br/>
 
-### gitignore
+### .gitignore
 
 A `.gitignore` file specifies intentionally untracked files that Git should ignore.  Ignored files are usually operating system, IDE, build artifacts and machine generated files which should not be committed.  Please read [ignoring files in Git](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) from Atlassian for an introduction.
 
