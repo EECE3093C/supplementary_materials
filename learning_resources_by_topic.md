@@ -47,7 +47,7 @@ It is recommended that you use either [GitHub Desktop](https://desktop.github.co
   <summary>Links</summary>
   
   - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
-  - [Intro to git for Visual Studio Code]([https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git))
+  - [Intro to git for Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
 </details>
 
 
@@ -77,7 +77,7 @@ You must clearly demonstrate per iteration planning, and have an overall objecti
   - [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects)
   - [Quickstart for Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
   - [The product backlog: your ultimate to-do list](https://www.atlassian.com/agile/scrum/backlogs)
-  - [Creating an Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+  - [Creating an Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
   - [Iteration field](https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields)
   - [Managing labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 </details>
@@ -85,6 +85,8 @@ You must clearly demonstrate per iteration planning, and have an overall objecti
 
 
 ### Issue Writting
+
+A good issue is clear and concise describes what is going on, includes relevant user research, points to the necessary files, and has a checklist of actions to take. The conversation is pretty good too, with lots of code samples and references to the issue from commits.
 
 
 
