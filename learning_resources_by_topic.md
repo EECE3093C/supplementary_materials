@@ -6,6 +6,8 @@ This document provides information and resources necessary for the semester proj
 
 Containerization will be done through the use of Visual Studio Code Dev Containers.  The expectation is that any repo can be downloaded, and through Visual Studio Code Dev Containers, you are guarnteed to have a consistent development environment.
 
+<br/>
+
 > **Warning**
 > 
 > Containerization **must be done** through Dev Containers.
@@ -13,7 +15,7 @@ Containerization will be done through the use of Visual Studio Code Dev Containe
 <br/>
 
 <details>
-  <summary>Additional Resources for Dev Containers</summary>
+  <summary>Resources for Dev Containers</summary>
   
   - [Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
   - [Manually create a dev container](https://code.visualstudio.com/docs/devcontainers/create-dev-container)
@@ -29,7 +31,7 @@ It is recommended that you use a per developer branching strategy, where each de
 <br/>
 
 <details>
-  <summary>Additional Resources for Git Branching</summary>
+  <summary>Resources for Git Branching</summary>
   
   - [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
   - [Branching Strategies](https://github.com/EECE3093C/supplementary_materials/blob/main/branching_strategies.md)
@@ -49,7 +51,7 @@ For a commit to be considered good, it should be singular (atomic) and describe 
 <br/>
 
 <details>
-  <summary>Additional Resources for Git Commits</summary>
+  <summary>Resources for Git Commits</summary>
   
   - [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
   - [Branching Strategies](https://github.com/EECE3093C/supplementary_materials/blob/main/branching_strategies.md)
@@ -66,7 +68,7 @@ A GitHub Action workflow is a set of automated steps that can be defined in a YA
 <br/>
 
 <details>
-  <summary>Additional Resources for GitHub Actions</summary>
+  <summary>Resources for GitHub Actions</summary>
   
   - [Understanding GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
   - [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
@@ -81,13 +83,47 @@ It is recommended that you use either [GitHub Desktop](https://desktop.github.co
 <br/>
 
 <details>
-  <summary>Additional Resources for GitHub GUI</summary>
+  <summary>Resources for GitHub GUI</summary>
   
   - [Getting started with GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
   - [Intro to git for Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
 </details>
 
 <br/>
+
+### gitignore
+
+A `.gitignore` file specifies intentionally untracked files that Git should ignore.  Ignored files are usually operating system, IDE, build artifacts and machine generated files which should not be committed.  Please read [ignoring files in Git](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) from Atlassian for an introduction.
+
+<br/>
+
+> **Warning**
+> 
+> Changes to `.gitignore` do not impact files that have already been checked in.  They will remain unless until you remove them.
+>
+
+Toptal provides a REST API to generate a `.gitignore` file for you. For example, the following command will create a `.gitignore` file that includes the most common files and directories to ignore for Linux, Visual Studio Code, Python, Node, and React:
+
+```sh
+curl https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,python,node,react --output .gitignore
+```
+
+You can also use the API interactively through their website:
+
+[https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)
+
+<br/>
+
+<details>
+  <summary>Resources for .gitignore</summary>
+  
+  - [ignoring files in Git](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+  - [Toptal gitignore website](https://www.toptal.com/developers/gitignore)
+  - [Toptal gitignore REST API](https://www.toptal.com/developers/gitignore/api/)
+</details>
+
+<br/>
+
 
 ### GitHub Project and Issues
 
@@ -97,10 +133,13 @@ Every team must have a single GitHub Project created from the `Feature` project 
 
 You must clearly demonstrate per iteration planning, and have an overall objective of what working software will be delivered for that iteration.
 
+<br/>
+
 > **Warning**
 > 
 > All work done by all team members must be accounted for through issues.  If it is not an issue, you **cannot** get credit for the work.  Therefore, even researching a particular concept should be documented as an issue, with what you learned and the direct outcome as it pertains to the issue documented through a comment (on the issue).
-> 
+
+<br/>
 
 - During iteration planning (or prior), issues must:
   - be assigned to the [iteration](https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-iteration-fields)
@@ -111,7 +150,7 @@ You must clearly demonstrate per iteration planning, and have an overall objecti
 <br/>
 
 <details>
-  <summary>Additional Resources for GitHub Projects and Issues</summary>
+  <summary>Resources for GitHub Projects and Issues</summary>
   
   - [Quickstart for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects)
   - [Quickstart for Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)
@@ -147,7 +186,7 @@ Additional writing guidelines:
 <br/>
 
 <details>
-  <summary>Additional Resources for Issue Writing</summary>
+  <summary>Resources for Issue Writing</summary>
   
   - [Writing effective user stories](https://tech.gsa.gov/guides/effective_user_stories/)
   - [Write good issues](https://tilburgsciencehub.com/building-blocks/collaborate-and-share-your-work/project_management/write-good-issues/)
