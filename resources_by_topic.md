@@ -24,6 +24,41 @@ Containerization will be done through the use of Visual Studio Code Dev Containe
 
 <br/>
 
+### Directory Structure
+
+Your language, technology, etc. of your project determine the best structure for your repository.  However, your structure should have some resemblence to the following **stock structure**.
+
+#### Stock Structure
+
+**The Root**: The root should be reserved for configuration files, documentation (such as README.md and others). Also, it can contain VS solution files and git files.
+
+**/src**: We all know this one. This is where all source files are placed. However, in languages that use headers (or if you have a framework for your application) don't put those files in here.
+
+**/lib**, **/dep**, **/inc** etc.: This is the directory where all your dependencies should be stored. Also, if you have your project in multiple files, put your headers and attached source in here.
+
+**/doc**: Documentation goes in here. For example, docs.md.
+
+**/res**: A less common one. For all static resources in your project. For example, images and audio.
+
+**/tools**, **/scripts**: Convenience directory for your use. Should contain scripts to automate tasks in the project, for example, build scripts, rename scripts. Usually contains .sh, .cmd files for example.
+
+**/build**: The place where your built files will go. Usually split into two directories, Debug and Release, it can contain binaries, .DLLs and any compiled files. It may also contain build scripts, like makefiles, but they should generally be in the root.
+
+**/test**: Contains unit tests... no, in fact, all tests!
+
+<br/>
+
+<details>
+  <summary>Resources for Git Branching</summary>
+  
+  - [Python Application Layouts: A Reference](https://realpython.com/python-application-layouts/)
+  - [Stock layout](https://softwareengineering.stackexchange.com/questions/86914/whats-the-best-structure-for-a-repository)
+  - [Organizing for Reproducible Research](https://coderefinery.github.io/reproducible-research/organizing-projects/)
+</details>
+
+
+<br/>
+
 ### Git Branching Strategy
 
 It is recommended that you use a per developer branching strategy, where each developer has their own dev branch that is named `dev-[lastname]` (e.g., dev-margeson, dev-cimini).  You may consider a per issue branching strategy, where each task or issue has its own dev branch, such as `dev-issue-1`, `dev-issue-2`, `dev-issue-3`, etc.  The final option to consider would be a feature branching strategy, this is where each feature in development has its own dev branch.  By feature we mean a discrete feature, such as `dev-frontend-scaffolding`, `dev-frontend-menu`, `dev-frontend-authentication`, etc. 
