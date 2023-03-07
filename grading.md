@@ -20,10 +20,9 @@ The progress of the team will be evaluated at the end of each development iterat
 |:-----------:|:-------------------------:|:------:|
 | Iteration 1 | February 15, 2023 @ 11:59 |  0%    |
 | Iteration 2 | March 1, 2023 @ 11:59     | 10%    |
-| Iteration 3 | March 22, 2023 @ 11:59    | 20%    |
-| Iteration 4 | April 5, 2023 @ 11:59     | 30%    |
-| Iteration 5 | April 19, 2023 @ 11:59    | 30%    |
-| Iteration 6 | April 27, 2023 @ 11:59    | 10%    |
+| Iteration 3 | March 29, 2023 @ 11:59    | 20%    |
+| Iteration 4 | April 12, 2023 @ 11:59    | 35%    |
+| Iteration 5 | April 27, 2023 @ 11:59    | 35%    |
 |             |                           | 100%   |
 
 
